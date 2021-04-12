@@ -1,7 +1,7 @@
 const Sequelize = require('sequelize');
 
-const conn = new Sequelize('bd_michael', 'bd_michael', 'Michael@98', {
-    host: 'bd_michael.mysql.dbaas.com.br',
+const conn = new Sequelize('*****', '*****', '*****', {
+    host: '*****',
     dialect: 'mysql'
 });
 
